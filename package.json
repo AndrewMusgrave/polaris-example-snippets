@@ -21,7 +21,8 @@
     ]
   },
   "categories": [
-    "Snippets"
+    "Snippets",
+    "Polaris"
   ],
   "contributes": {
     "snippets": [
