@@ -1,0 +1,51 @@
+{
+  "name": "polaris-example-snippets",
+  "displayName": "Polaris Example Snippets",
+  "description": "Snippets for Polaris component examples",
+  "version": "0.0.1",
+  "publisher": "AndrewMusgrave",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AndrewMusgrave/polaris-example-snippets.git"
+  },
+  "engines": {
+    "vscode": "^1.14.0"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/polaris/"
+    ]
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/snippets.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "react": "^16.9.0",
+    "chalk": "^2.4.2"
+  }
+}
